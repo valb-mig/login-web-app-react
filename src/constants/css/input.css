@@ -1,0 +1,28 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.input
+{
+    display:         flex;
+    justify-content: center;
+    margin:          10px;
+}
+
+.input input
+{
+    border: none;
+    background-color: #fff;
+    border-radius:     0px 5px 5px 0px;
+}
+
+.input i
+{
+    text-align:        center;
+    padding:           5px;
+    background-color: white;
+    border-radius:     5px 0px 0px 5px;
+}

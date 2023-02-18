@@ -1,0 +1,25 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    margin-top:       40vh;
+    width:            250px;
+}
+
+.title
+{
+    font-size:  1.5em;
+    text-align: center;
+    color:    black;
+}
+
+.container
+{
+    padding:         15px;
+    border-radius:   5px;
+    background-color: #dddddd;
+}
