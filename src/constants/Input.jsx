@@ -5,7 +5,7 @@ function Input(props){
     return(
         <div className='input'>
             <i className={'fa fa-'+props.icon}></i>
-            <input type={props.type} placeholder={props.placeholder}></input>
+            <input id={props.id} type={props.type} placeholder={props.placeholder}></input>
         </div>
     );
 }

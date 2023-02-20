@@ -8,7 +8,7 @@ import Register  from '../pages/register';
 
 
 const Private = ({ Item }) => {
-    const logged = false;
+    const logged = true; //Based on login  
 
     return logged > 0 ? <Item /> : <Login />
 }
