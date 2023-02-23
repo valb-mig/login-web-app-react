@@ -1,0 +1,14 @@
+.title
+{
+}
+
+.buttons
+{
+    display:         flex;
+    justify-content: flex-end;
+}
+
+.button a
+{
+    margin: 5px 5px 0px 5px;
+}

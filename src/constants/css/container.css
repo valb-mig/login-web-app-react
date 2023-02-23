@@ -1,3 +1,9 @@
+.content-box
+{
+    display:         flex;
+    justify-content: center;
+}
+
 .content
 {
     display: flex;
@@ -6,8 +12,7 @@
 
 .box
 {
-    margin-top:       40vh;
-    width:            250px;
+    margin-top:       35vh;
 }
 
 .title
@@ -17,9 +22,16 @@
     color:    black;
 }
 
+.title img
+{
+    width:         70px;
+    height:        70px;
+    margin-bottom: 10px;
+}
+
 .container
 {
     padding:         15px;
     border-radius:   5px;
-    background-color: #dddddd;
+    background-color: #2d2f3b;
 }

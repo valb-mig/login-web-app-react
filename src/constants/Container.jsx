@@ -3,10 +3,11 @@ import './css/container.css'
 
 function Container(props){
     return(
-        <div className='content'>
+        <div className='content-box'>
             <div className='box'>
-                <div className='title'>{props.title}</div>
-                
+                <div className='title'>{props.title}
+                    <img src={props.img}></img>
+                </div>
                 <div className='container'>
                     {props.children}
                 </div>

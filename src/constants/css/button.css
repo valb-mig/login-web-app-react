@@ -1,0 +1,18 @@
+.button a
+{
+    display:            block;
+    text-decoration:    none;
+    font-weight:        bold;
+    padding:            15px;
+    border-radius:      5px;
+    text-align:         center;
+    background-color: #00F3A5;  
+    color:            rgb(30, 30, 39);
+    transition:  0.2s;
+}
+
+.button a:hover
+{
+    background-image: linear-gradient(to bottom, #00F3A5,#2dc0ac);
+    box-shadow: 0px 0px 5px #00F3A5;  
+}

@@ -11,6 +11,8 @@ import Greetings    from "../../constants/Greetings";
 const Home = () =>{
     return(
         <div>
+            <title> Home </title>
+
             <Header>
             </Header>
 
