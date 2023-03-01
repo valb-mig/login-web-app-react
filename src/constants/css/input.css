@@ -10,16 +10,24 @@ button:focus {
     display:         flex;
     justify-content: center;
     padding: 5px;
-    width:   100%;
-    height:  100%;    
 }
 
 .input input
 {
+    width:             100%;
     padding:           12px;
     border:            none;
     border-radius:     0px 5px 5px 0px;
     background-color: #fff;
+}
+
+.input-error input
+{
+    width:             100%;
+    padding:           12px;
+    border:            1px solid #fd6363;
+    border-radius:     0px 5px 5px 0px;
+    background-color: #fcc8c8;
 }
 
 .input i

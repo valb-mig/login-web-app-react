@@ -3,10 +3,10 @@ import './css/button.css'
 
 function Button(props){
     return(
-        <div className="button">
-            <a href={props.url}>
+        <div className="button" onClick={props.onclick}>
+            <div>
                 {props.title}
-            </a>
+            </div>
         </div>
     );
 }
