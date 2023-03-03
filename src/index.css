@@ -1,11 +1,11 @@
 body
 {
-    /* background-image: url('./assets/img/bg3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; 
-    background-repeat: no-repeat; */
+    /* background-image:      url('assets/img/waves3.svg');
+    background-repeat:     no-repeat;
+    background-size:       1920px;
+    background-position:   0px 32vh;
+    background-attachment: fixed;
+    aspect-ratio:          960/300;
 
-    background-color: rgb(30, 30, 39);
+    background-color: rgb(30, 30, 39); */
 }

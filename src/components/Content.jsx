@@ -3,7 +3,7 @@ import React from 'react';
 
 const Content = (props) => {
     return(
-        <div className='content'>
+        <div className={'content '+props.color}>
             {props.children}
         </div>
     );

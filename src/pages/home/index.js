@@ -1,33 +1,18 @@
 import React, { Component } from 'react';
 import './css/home.css'
 
-import Header       from "../../constants/Header";
-import HeaderItem   from "../../constants/HeaderItem";
-import Sidebar      from "../../constants/Sidebar";
-import SidebarItem  from "../../constants/SidebarItem";
-import Content      from "../../constants/Content";
-import Greetings    from "../../constants/Greetings";
+import Content from "../../components/Content";
 
 const Home = () =>{
     return(
-        <div>
+        <div className='content-home'>
             <title> Home </title>
-
-            <Header>
-            </Header>
-
             <div className='main'>
-                <Sidebar>
-                    <SidebarItem
-                        name="Home"
-                        icon="home"
-                    />
-                </Sidebar>
-        
-                <Content>
-                    <Greetings/>            
+                <Content color="blue">
+                    <h1>HomePage</h1>
                 </Content>
             </div>
+
         </div>
 
     )
