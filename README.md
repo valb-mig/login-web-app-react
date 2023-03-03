@@ -6,7 +6,7 @@
 
 - Finalizar homepage ❌
 - Criar verificação de login ❌
-- Conectar à um banco de dados ❌
+- Conectar a um banco de dados ❌
 
 # 👾 Tecnologias usadas
 
@@ -15,7 +15,7 @@
 - Css
 - Js
 
-## 💻 Tecnologias à serem implementadas
+## 💻 Tecnologias a serem implementadas
 
 - Prisma Js
 - Scss
